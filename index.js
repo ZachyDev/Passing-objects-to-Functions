@@ -5,10 +5,10 @@ let user = {
     showInfo: (realAge) => {
         alert(`${ this.name } ${ realAge } ${ this.gender }`);
     }
-}
+};
 
 
-const incrementAge = ({ age,name }) =>{
+const incrementAge = ({ age,name }) => {
     age += 1;
     alert(age,name);
 };
