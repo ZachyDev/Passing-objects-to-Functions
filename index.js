@@ -2,7 +2,7 @@ let user = {
     name: "moseti",
     age: 20,
     gender: "male",
-    showInfo: function(realAge){
+    showInfo: (realAge) => {
         alert(`${ this.name } ${ realAge } ${ this.gender }`);
     }
 }
@@ -10,6 +10,6 @@ let user = {
 
 const incrementAge = ({ age,name }) =>{
     age += 1;
-    console.log(age,name);
-}
+    alert(age,name);
+};
 incrementAge(user);
